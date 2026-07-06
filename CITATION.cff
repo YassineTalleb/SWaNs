@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use SWaNs, please cite the software and the companion manuscript."
+title: "SWaNs"
+type: software
+abstract: "SWaNs is an R/Shiny application for deterministic source localisation and strategy comparison in rooted sewer networks."
+authors:
+  - family-names: "Talleb"
+    given-names: "Yassine"
+    email: "yassine.talleb@tu-dortmund.de"
+version: "v1.0.0"
+date-released: "2026-07-05"
+license: "AGPL-3.0-or-later"
+repository-code: "https://github.com/YassineTalleb/SWaNs"
+url: "https://shiny.statistik.tu-dortmund.de/app/swans"
+preferred-citation:
+  type: article
+  title: "Source-tracking algorithms for wastewater-based epidemiology in urban sewer networks: Design and comparative evaluation in a German metropolitan area"
+  authors:
+    - family-names: "Talleb"
+      given-names: "Yassine"
+    - family-names: "Pape"
+      given-names: "Lukas"
+    - family-names: "Schmidt"
+      given-names: "Tina"
+    - family-names: "Nafo"
+      given-names: "Issa"
+    - family-names: "Moebus"
+      given-names: "Susanne"
+    - family-names: "Ickstadt"
+      given-names: "Katja"
+    - family-names: "Schmiege"
+      given-names: "Dennis"
+  year: 2026
+  note: "Submitted manuscript. Further bibliographic details will be added once available."
