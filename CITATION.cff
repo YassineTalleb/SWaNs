@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use SWaNs, please cite the software and the companion manuscript."
+message: "If you use SWaNs, please cite the companion manuscript."
 title: "SWaNs"
 type: software
 abstract: "SWaNs is an R/Shiny application for deterministic source localisation and strategy comparison in rooted sewer networks."
