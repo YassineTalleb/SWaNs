@@ -55,8 +55,6 @@ The public code repository is intended for release as:
 
 The app uses base R graphics and a custom internal XLSX writer for summary exports.
 
-The included `renv.lock` file is a dependency snapshot for reproducibility. It is not required to launch the app, but it helps recreate the tested package versions more consistently.
-
 ## Run locally
 
 1. Install the required R packages.
@@ -77,10 +75,9 @@ shiny::runApp()
 
 The repository contains:
 
-- a built-in 100-node example sewer network,
-- public synthetic network and weight inputs for testing and demonstration,
-- a minimal reproduction script, and
-- a dependency snapshot in `renv.lock`.
+- a built-in 100-node example sewer network and
+- a public synthetic network and weight inputs for testing and demonstration.
+
 
 Detailed real-world sewer-network data from the metropolitan case study are **not** included. These files are not publicly shared because they contain security-sensitive infrastructure information and were supplied under access restrictions.
 
@@ -88,7 +85,7 @@ The synthetic input files are included for transparency and reproducibility. The
 
 ## Citation
 
-If you use SWaNs, please cite both the software and the companion manuscript.
+If you use SWaNs, please cite the companion manuscript.
 
 Software citation metadata are provided in [CITATION.cff](CITATION.cff).
 
